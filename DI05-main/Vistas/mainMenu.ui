@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainMenu</class>
+ <widget class="QMainWindow" name="MainMenu">
+  <property name="windowModality">
+   <enum>Qt::WindowModality::WindowModal</enum>
+  </property>
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>645</width>
+    <height>459</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>645</width>
+    <height>459</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>645</width>
+    <height>459</height>
+   </size>
+  </property>
+  <property name="font">
+   <font>
+    <family>Arial</family>
+    <pointsize>-1</pointsize>
+    <bold>false</bold>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="../Recursos/img/bg.qrc">
+    <normaloff>:/prefijoNuevo/brianda1.png</normaloff>:/prefijoNuevo/brianda1.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget {
+
+    color: #ECF0F1; /* Texto claro en el fondo */
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+}
+QLabel#aplicacioneslabel, QLabel#ayudalabel{
+    font-family: 'Arial', sans-serif;
+    font-size: 24px; /* Título grande */
+    font-weight: bold; /* Negrita */
+    color: black; /* Color oscuro para contraste */
+    background-color: rgba(38, 45, 67, 0.3);
+    padding: 10px 0; /* Espaciado superior e inferior */
+    border: none; /* Sin borde */
+    text-align: center; /* Centrado */
+    margin-bottom: 20px; /* Espacio debajo del título */
+    border-bottom: 3px solid grey; /* Subrayado azul */
+}
+
+QLabel#aplicacioneslabel:hover {
+    color: #1F8CD0; /* Cambio de color al pasar el ratón (Azul) */
+}
+
+QLabel#aplicacioneslabel:focus {
+    outline: none; /* Elimina el contorno de foco */
+}
+QLabel#ayudalabel:hover {
+    color: #1F8CD0; /* Cambio de color al pasar el ratón (Azul) */
+}
+
+QLabel#ayudalabel:focus {
+    outline: none; /* Elimina el contorno de foco */
+}
+
+QWidget#gridLayoutWidget {
+    background-color: rgba(41, 41, 61, 0.5); /* Color de fondo del panel más oscuro */
+    border-radius: 15px;
+    border: 2px solid #5D6D7E;
+    padding: 20px;
+}
+
+QLabel#fondo{
+    border-image: url(:/prefijoNuevo/DEFE8680-0B24-D610-0C1517DF084837B4.JPG);
+}
+
+QPushButton {
+    background-color: #3498DB; /* Azul brillante */
+    color: #000000; /* Texto en negro */
+    border-radius: 12px;
+    padding: 12px 25px;
+    font-size: 16px;
+    font-weight: bold;
+    min-width: 120px;
+    min-height: 45px;
+    margin: 10px;
+    border: none;
+}
+
+QPushButton:hover {
+    background-color: #1F8CD0; /* Azul más oscuro */
+    font-weight: bold;
+}
+
+QPushButton:pressed {
+    background-color: #2980B9; /* Azul aún más oscuro */
+    font-weight: bold;
+}
+
+QPushButton:focus {
+    outline: none;
+}
+
+/* Estilos específicos para cada botón con hover y pressed */
+QPushButton#buttonReservar {
+    background-color: #1ABC9C; /* Verde-agua */
+}
+
+QPushButton#buttonReservar:hover {
+    background-color: #16A085; /* Verde-agua más oscuro */
+}
+
+QPushButton#buttonReservar:pressed {
+    background-color: #138D6F; /* Verde-agua aún más oscuro */
+}
+
+QPushButton#buttonClientes {
+    background-color: #27AE60; /* Verde */
+}
+
+QPushButton#buttonClientes:hover {
+    background-color: #219150; /* Verde más oscuro */
+}
+
+QPushButton#buttonClientes:pressed {
+    background-color: #1C7A4D; /* Verde aún más oscuro */
+}
+
+QPushButton#buttonAplicaciones {
+    background-color: #ac3939; /* Rojo */
+}
+
+QPushButton#buttonAplicaciones:hover {
+    background-color: #8B2E2E; /* Rojo más oscuro */
+}
+
+QPushButton#buttonAplicaciones:pressed {
+    background-color: #732525; /* Rojo aún más oscuro */
+}
+
+QPushButton#buttonAyuda {
+    background-color: #F39C12; /* Naranja */
+}
+
+QPushButton#buttonAyuda:hover {
+    background-color: #D68910; /* Naranja más oscuro */
+}
+
+QPushButton#buttonAyuda:pressed {
+    background-color: #B9770E; /* Naranja aún más oscuro */
+}
+
+QPushButton#buttonAcerca {
+    background-color: #9B59B6; /* Púrpura */
+}
+
+QPushButton#buttonAcerca:hover {
+    background-color: #8E44AD; /* Púrpura más oscuro */
+}
+
+QPushButton#buttonAcerca:pressed {
+    background-color: #7D3C98; /* Púrpura aún más oscuro */
+}
+
+QPushButton#buttonDocumentacion {
+    background-color: #E67E22; /* Naranja oscuro */
+}
+
+QPushButton#buttonDocumentacion:hover {
+    background-color: #D35400; /* Naranja oscuro más oscuro */
+}
+
+QPushButton#buttonDocumentacion:pressed {
+    background-color: #BA4A00; /* Naranja oscuro aún más oscuro */
+}</string>
+  </property>
+  <property name="tabShape">
+   <enum>QTabWidget::TabShape::Rounded</enum>
+  </property>
+  <widget class="QWidget" name="centralwidget_1">
+   <widget class="QWidget" name="gridLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>150</y>
+      <width>611</width>
+      <height>281</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="gridLayout_3">
+     <item row="1" column="0">
+      <widget class="QPushButton" name="buttonClientes">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Minimum" vsizetype="MinimumExpanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="toolTip">
+        <string>Abre ventana para gestionar Clientes</string>
+       </property>
+       <property name="text">
+        <string>Clientes</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="0">
+      <widget class="QPushButton" name="buttonReservar">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Minimum" vsizetype="MinimumExpanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="toolTip">
+        <string>Abre ventana para gestionar las reservas</string>
+       </property>
+       <property name="text">
+        <string>Reservar</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QPushButton" name="buttonAcerca">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Minimum" vsizetype="MinimumExpanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="toolTip">
+        <string>Acerca de la aplicación</string>
+       </property>
+       <property name="text">
+        <string>Acerca</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QPushButton" name="buttonDocumentacion">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="toolTip">
+        <string>Leer documentación</string>
+       </property>
+       <property name="text">
+        <string>Documentación</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QLabel" name="fondo">
+    <property name="geometry">
+     <rect>
+      <x>-20</x>
+      <y>0</y>
+      <width>681</width>
+      <height>471</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QWidget" name="horizontalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>20</y>
+      <width>591</width>
+      <height>80</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QLabel" name="aplicacioneslabel">
+       <property name="text">
+        <string>Aplicaciones</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignmentFlag::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="ayudalabel">
+       <property name="layoutDirection">
+        <enum>Qt::LayoutDirection::LeftToRight</enum>
+       </property>
+       <property name="text">
+        <string>Ayuda</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignmentFlag::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <zorder>fondo</zorder>
+   <zorder>gridLayoutWidget</zorder>
+   <zorder>horizontalLayoutWidget</zorder>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>645</width>
+     <height>33</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="../Recursos/img/bg.qrc"/>
+ </resources>
+ <connections/>
+</ui>

@@ -1,0 +1,26 @@
+<RCC>
+  <qresource prefix="prefijoNuevo">
+    <file>close.svg</file>
+    <file>airplane-mode.svg</file>
+    <file>android-fill.svg</file>
+    <file>cloud-up.svg</file>
+    <file>disk.svg</file>
+    <file>drive.svg</file>
+    <file>external-link.svg</file>
+    <file>fx.svg</file>
+    <file>go-bottom.svg</file>
+    <file>go-top.svg</file>
+    <file>heart-filled.svg</file>
+    <file>key-return.svg</file>
+    <file>key-return-noframe.svg</file>
+    <file>magnet.svg</file>
+    <file>new.svg</file>
+    <file>seek-forward.svg</file>
+    <file>send.svg</file>
+    <file>send-receive.svg</file>
+    <file>server.svg</file>
+    <file>DEFE8680-0B24-D610-0C1517DF084837B4.JPG</file>
+    <file>brianda1.png</file>
+    <file>brianda.jpeg</file>
+  </qresource>
+</RCC>

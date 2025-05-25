@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Documentacion</class>
+ <widget class="QDialog" name="Documentacion">
+  <property name="windowModality">
+   <enum>Qt::WindowModality::WindowModal</enum>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>774</width>
+    <height>379</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>774</width>
+    <height>379</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>774</width>
+    <height>379</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Documentación</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="../Recursos/img/bg.qrc">
+    <normaloff>:/prefijoNuevo/brianda1.png</normaloff>:/prefijoNuevo/brianda1.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">    QDialog {
+        background-color: #1E1E2F;
+        color: #F4F4F4;
+        font-family: 'Arial', sans-serif;
+        font-size: 14px;
+    }
+
+</string>
+  </property>
+  <widget class="QScrollArea" name="scrollArea">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>30</y>
+     <width>731</width>
+     <height>321</height>
+    </rect>
+   </property>
+   <property name="widgetResizable">
+    <bool>true</bool>
+   </property>
+   <widget class="QWidget" name="scrollAreaWidgetContents">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>717</width>
+      <height>1000</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>0</width>
+      <height>1000</height>
+     </size>
+    </property>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>-120</y>
+       <width>711</width>
+       <height>1000</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>1000</height>
+      </size>
+     </property>
+     <property name="text">
+      <string>&lt;h2&gt;Documentación de la Aplicación&lt;/h2&gt;
+
+&lt;h3&gt;Resumen:&lt;/h3&gt;
+&lt;p&gt;Esta aplicación está diseñada para gestionar las reservas de un hotel. Permite a los usuarios interactuar con una base de datos para realizar las siguientes operaciones:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Autenticación&lt;/strong&gt;: Acceso mediante nombre de usuario y contraseña, validada contra la base de datos.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Gestión de Clientes&lt;/strong&gt;: Permite crear, leer, actualizar y eliminar registros de clientes en la base de datos.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Reservas&lt;/strong&gt;: Realización de reservas, mostrando información detallada y permitiendo modificaciones, consultas y eliminaciones de reservas existentes.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Interfaz de Usuario&lt;/strong&gt;: La aplicación presenta una interfaz gráfica atractiva y fácil de usar, desarrollada con la biblioteca PySide6 y diseñada con QT Designer.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Funciones Principales:&lt;/h3&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;Pantalla de Autenticación:&lt;/strong&gt; Al iniciar la aplicación, el usuario debe ingresar su nombre de usuario y contraseña para acceder. La autenticación se realiza validando los datos contra la tabla de usuarios en la base de datos SQLite.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Gestión de Clientes:&lt;/strong&gt; Permite al administrador gestionar los registros de los clientes, agregando nuevos clientes, consultando la información existente, y realizando actualizaciones o eliminaciones. Los campos disponibles incluyen nombre, dirección, teléfono y correo electrónico.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Gestión de Reservas:&lt;/strong&gt; Permite a los usuarios realizar nuevas reservas, consultar reservas existentes, modificar detalles o eliminarlas. Al crear una reserva, se solicita información del cliente, número de personas y fechas. El sistema muestra los detalles de las reservas, incluyendo el nombre del cliente y teléfono, los cuales se obtienen de la tabla de clientes en la base de datos.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Pantalla &quot;Acerca de&quot;:&lt;/strong&gt; Esta ventana proporciona información sobre los desarrolladores de la aplicación y el propósito general del proyecto.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Pantalla de Documentación:&lt;/strong&gt; Explica el funcionamiento general de la aplicación y proporciona detalles sobre las distintas funcionalidades disponibles.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3&gt;Tecnologías Utilizadas:&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Lenguaje de Programación&lt;/strong&gt;: Python 3.x&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Librería Gráfica&lt;/strong&gt;: PySide6 (basada en Qt6)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Modelo de Diseño&lt;/strong&gt;: Modelo Vista Controlador (MVC)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Base de Datos&lt;/strong&gt;: SQLite&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Diseño de la Interfaz&lt;/strong&gt;: QT Designer&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Consideraciones de Diseño:&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;La interfaz está diseñada para ser intuitiva y fácil de usar, con un esquema de colores atractivo y una estructura que facilita la navegación.&lt;/li&gt;
+  &lt;li&gt;Los botones y otros elementos interactivos cuentan con &lt;em&gt;tooltips&lt;/em&gt; para facilitar la comprensión de su función.&lt;/li&gt;
+  &lt;li&gt;La aplicación es completamente funcional y modular, permitiendo una fácil expansión en el futuro si fuera necesario.&lt;/li&gt;
+&lt;/ul&gt;
+</string>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="../Recursos/img/bg.qrc"/>
+ </resources>
+ <connections/>
+</ui>
