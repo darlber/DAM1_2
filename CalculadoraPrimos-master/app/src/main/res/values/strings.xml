@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Calculadora Primos</string>
+    <string name="titulo">Calculadora de Números Primos</string>
+    <string name="description">Introduce la posición del número primo que quieras calcular</string>
+    <string name="ejemplo">Ejemplo: Número primo cuya posición sea 6</string>
+    <string name="Calcular">Calcular</string>
+    <string name="respuesta">En la posición "%d" encontramos el número primo: %d</string>
+</resources>
