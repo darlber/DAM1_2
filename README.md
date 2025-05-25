@@ -20,7 +20,6 @@ Repositorio de prácticas y proyectos de 1º y 2º curso de DAM, modalidad e-lea
 | DI05-main                        | Ejercicios avanzados de desarrollo de interfaces gráficas.                       |
 | DI07-main                        | Aplicación de gestión de tareas con interfaz gráfica personalizada.              |
 | DI08-main                        | Prácticas de integración de componentes gráficos avanzados en aplicaciones.      |
-| examenMayo-master                | Práctica o examen integrador de conocimientos de programación.                   |
 | ListaPerfectos-master            | Aplicación para generar y listar números perfectos.                              |
 | PMDM04-master/app                | Proyecto Android para gestión avanzada de actividades y fragmentos.              |
 | PMDM06-master/app                | Aplicación Android con integración de sensores y servicios.                      |
