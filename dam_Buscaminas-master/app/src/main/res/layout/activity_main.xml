@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorToolbarBackground"
+        android:elevation="4dp"
+        app:titleTextColor="@color/colorBackground"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorBackground"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Botón para Instrucciones -->
+        <Button
+            android:id="@+id/btn_instructions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:backgroundTint="@color/colorPrimary"
+            android:padding="12dp"
+            android:text="Instrucciones"
+            android:textColor="@android:color/white" />
+
+        <!-- Botón para Nuevo Juego -->
+        <Button
+            android:id="@+id/btn_new_game"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:backgroundTint="@color/colorPrimary"
+            android:padding="12dp"
+            android:text="Nuevo Juego"
+            android:textColor="@android:color/white" />
+
+        <!-- Botón para Configurar el Juego -->
+        <Button
+            android:id="@+id/btn_configure_game"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:backgroundTint="@color/colorPrimary"
+            android:padding="12dp"
+            android:text="Configura el Juego"
+            android:textColor="@android:color/white" />
+
+        <!-- Botón para Seleccionar Personaje -->
+        <Button
+            android:id="@+id/btn_select_character"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:backgroundTint="@color/colorPrimary"
+            android:padding="12dp"
+            android:text="@string/selecciona_personaje"
+            android:textColor="@android:color/white" />
+
+    </LinearLayout>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
